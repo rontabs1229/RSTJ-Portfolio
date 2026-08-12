@@ -6,7 +6,7 @@
                 <h3 class="pt-3">Main Course</h3>
             </div>
         </div>
-        <div class="row mt-3 px-3 justify-content-center">
+        <div class="row px-3 justify-content-center">
             <div 
                 v-for="(group, index) in chunkedProjects" 
                 :key="index" 
