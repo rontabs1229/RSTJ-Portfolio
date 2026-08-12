@@ -2,7 +2,9 @@
 	<div class="container mb-5" id="contact">
 		<div class="row">
 			<div class="col py-5">
-				<h2>Contact</h2>
+				<h2>
+					<span class="bracket">&lt;</span> { [ - - - Contact - - - ] } <span class="bracket">&gt;</span>
+				</h2>
 			</div>
 		</div>
 		<div class="row mt-3 px-5" id="map">

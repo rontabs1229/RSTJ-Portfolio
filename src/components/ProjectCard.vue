@@ -1,6 +1,6 @@
 <template>
     <div class="card h-100" id="cards">
-        <img :src="project.image" class="card-img-top" alt="...">
+        <img :src="project.image" class="card-img-top mt-3" alt="...">
         <div class="card-body">
             <h4 class="card-title">{{ project.title }}</h4>
             <p class="card-text">

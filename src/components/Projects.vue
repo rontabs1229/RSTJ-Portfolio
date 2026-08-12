@@ -2,15 +2,18 @@
     <div class="container my-5 justify-content-center" id="projects">
         <div class="row">
             <div class="col-12 pt-5">
-                <h2>My Projects</h2>
+                <h2>
+                    <span class="bracket">&lt;</span> { [ - - - My Projects - - - ] } <span class="bracket">&gt;</span>
+                </h2>
                 <h3 class="pt-3">Main Course</h3>
             </div>
         </div>
+
         <div class="row px-3 justify-content-center">
             <div 
                 v-for="(group, index) in chunkedProjects" 
                 :key="index" 
-                class="row my-5 g-4 justify-content-center w-100"
+                class="row mb-5 g-4 justify-content-center w-100"
             >
                 <div 
                     v-for="project in group" 

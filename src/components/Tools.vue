@@ -2,7 +2,9 @@
 	<div class="container justify-content-center my-5 pb-5" id="tools">
 		<div class="row pt-5">
 			<div class="col text-center">
-				<h2>Tools</h2>
+				<h2>
+					<span class="bracket">&lt;</span> { [ - - - Tools - - - ] } <span class="bracket">&gt;</span>
+				</h2>
 			</div>
 		</div>
 		<div class="row text-center mt-3 mx-3 pb-5" id="tools_card">
