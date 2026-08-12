@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+/* start of navbar */
+#navbar {
+  background-color: #1F2021;
+  position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#logo {
+  font-family: Sora;
+  font-style: Bold;
+  font-weight: 700;
+  color: #DDC2A3;
+}
+
+#navlink > a {
+  font-family: JetBrains Mono;
+  font-style: Medium;
+  font-weight: 500;
+  color: #C4C6CC;
+}
+/* end of navbar */
+
+/* start of landing */
+#landing {
+  background-color:  #d6b4fc40;
+  border-radius: 25px;
+  align-items: center;
+  box-shadow: 0px 4px 23px 0px #DDC2A3;
+  margin-top: 100px !important;
+}
+
+#button_connect {
+  background-color: #DDC2A3;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #343536;
+  font-family: JetBrains Mono;
+  font-style: Black;
+  font-weight: 900;
+  font-size: 16px;
+}
+
+#profile_pic {
+  height: 30;
+  width: 30;
+  border: 5px solid #DDC2A3;
+  border-radius: 50%;
+}
+
+#landing h1 {
+  font-family: Sora;
+  font-style: ExtraBold;
+  font-weight: 800;
+  font-size: 50px;
+  color: #FFFFFF;
+  word-spacing: 5px
+}
+
+#landing h3 {
+  font-family: Sora;
+  font-style: Normal;
+  font-weight: 400;
+  font-size: 25px;
+  color: #DDC2A3;
+  word-spacing: 10px
+}
+
+#landing p {
+  font-family: JetBrains Mono;
+  font-style: Normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #C4C6CC;
+  word-spacing: 5px;
+}
+/* end of landing */
+
+
+/* start of projects */
+#projects {
+  background-color: #1F2021BF;
+  border-radius: 25px;
+  align-items: center;
+  box-shadow: 0px 4px 23px 0px #DDC2A3;
+}
+
+#projects h2 {
+  font-family: Sora;
+  font-style: Bold;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#projects h3 {
+  font-family: Sora;
+  font-style: Bold;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: #DDC2A3;
+}
+
+#projects h4 {
+  font-family: Sora;
+  font-style: Normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 15px;
+}
+
+#projects p {
+  font-family: JetBrains Mono;
+  font-style: Normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #DDC2A3;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+#p_note {
+  font-family: JetBrains Mono;
+  font-style: Normal;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  color: #FFFFFF;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+}
+
+#projects img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px; 
+  height:300px;   
+  object-fit: cover; 
+  align-items: center;
+}
+
+#cards {
+  background-color: #2C394740;
+  border: 1px solid #A5CBE980;
+  position: relative;
+  max-width: 350px;
+  clip-path: polygon(
+        0 0,
+        100% 0,
+        100% calc(100% - 40px),
+        calc(100% - 40px) 100%,
+        0 100%
+    );
+}
+/* end of projects */
+
+/* start of tools */
+#tools {
+  background-color: #1F2021BF;
+  border-radius: 25px;
+  align-items: center;
+  box-shadow: 0px 4px 23px 0px #DDC2A3;
+}
+
+#tools h2 {
+  font-family: Sora;
+  font-style: Bold;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#tools h3 {
+  font-family: Sora;
+  font-style: Bold;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: #DDC2A3;
+}
+
+.tools-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80px; 
+  height: 80px;   
+  object-fit: fill; 
+  align-items: center;
+}
+
+#tools_card {
+  background-color: #2C394740;
+  border: 1px solid #A5CBE980;
+  clip-path: polygon(
+        40px 0, 
+        100% 0, 
+        100% 100%, 
+        0 100%, 
+        0 40px
+    );
+}
+
+.tools-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 280px;
+  margin: 0 auto;
+}
+/* end of tools */
+
+/* start of contact */
+#contact {
+  background-color: #1F2021BF;
+  border-radius: 25px;
+  align-items: center;
+  box-shadow: 0px 4px 23px 0px #DDC2A3;
+}
+
+#form_section {
+  background-color: #2C394740;
+  border: 1px solid #A5CBE980;
+  clip-path: polygon(
+        0 0,
+        100% 0,
+        100% calc(100% - 40px),
+        calc(100% - 40px) 100%,
+        0 100%
+    );
+    justify-content: right !important;
+    align-content: right !important;
+}
+
+
+
+#contact h2 {
+  font-family: Sora;
+  font-style: Bold;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.form-label {
+  font-family: JetBrains Mono;
+  font-style: Normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #DDC2A3;
+}
+
+#contact-submit-btn {
+  color: #2D2A32;
+  background-color: #d6b4fc;
+  font-family: Sora;
+  font-style: Bold;
+  font-weight: 700;
+  font-size: 16px;
+}
+/* end of contact */
+
+
+/* start of footer */
+footer {
+  background-color: #1F2021;
+    width: 100%;
+    font-family: JetBrains Mono;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  color: #d6b4fc;
+}
+/* end of footer */

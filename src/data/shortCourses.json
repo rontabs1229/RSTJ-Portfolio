@@ -1,0 +1,20 @@
+[
+    {  
+        "id": 1,
+        "title": "Short Course Capstone",
+        "description": "First Shourt Course Capstone",
+        "image": "/images/sc1.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Short Course Capstone",
+        "description": "Second Shourt Course Capstone",
+        "image": "/images/sc2.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Short Course Capstone",
+        "description": "Third Shourt Course Capstone",
+        "image": "/images/sc3.jpg"
+    }
+]
