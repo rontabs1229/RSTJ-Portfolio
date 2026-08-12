@@ -29,9 +29,11 @@
 				  <label for="messageInput" class="form-label" id="message_label">Message:</label>
 				  <textarea class="form-control" v-model="message" id="messageInput" rows="5" placeholder="Connect with RSTJ" required></textarea>
 				</div>
-				<div class="d-flex justify-content-end mt-2">
+
+				<div class="d-flex justify-content-start mt-2 mb-3">
                     <div ref="recaptchaContainer"></div>
 	            </div>
+
 				<button id="contact-submit-btn" type="submit" class="btn mb-3" :disabled="isLoading">{{ isLoading ? "Sending..." : "Submit" }}</button>
 
 			</div>
