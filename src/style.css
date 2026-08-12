@@ -57,8 +57,9 @@ body {
 }
 
 #profile_pic {
-  height: 30;
-  width: 30;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
   border: 5px solid #DDC2A3;
   border-radius: 50%;
 }
